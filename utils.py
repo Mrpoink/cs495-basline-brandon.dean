@@ -1,7 +1,7 @@
 def tokenizer (s, enum=None): 
     #s is defined as a sentence
 
-    s_clean = s.replace(',', '-', '_', '/', '')
+    s_clean = s.replace(',', '')
 
     s_split = s_clean.split() #s_split turns sentence into array of words
 
